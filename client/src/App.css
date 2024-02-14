@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.chatWindow {
+  width: 800px;
+  height: 500px;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5%;
+  border: 2px solid white;
+  overflow-y: scroll;
+}
+
+.inputs {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#warningNoti {
+  color: red;
+}
+
+#usernameWarningNoti {
+  color: red;
+}
+
+#passwordNoti {
+  color: red;
+}
+
+.message {
+  margin-top: 10px;
+}
+
+.backButton {
+  margin-left: 5px;
+}
